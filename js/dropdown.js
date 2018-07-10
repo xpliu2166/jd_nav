@@ -56,7 +56,6 @@ $(function(){
                 }
                 activeRow.removeClass('active')
                 activeMenu.addClass('none')
-
                 activeRow = $this
                 activeRow.addClass('active')
                 activeMenu = $('#' + activeRow.data('id'))
